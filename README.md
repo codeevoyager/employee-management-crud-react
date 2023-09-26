@@ -1,4 +1,13 @@
-# Getting Started with Create React App
+# Employee management - CRUD Operations
+
+Employee management system helps to create, update, delete and view the records of employees working in an organization. 
+
+## Preview
+
+[![preview-img](./src/employee-management-crud-preview.png)](https://employee-management-crud-codeevoyager.vercel.app/)
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
