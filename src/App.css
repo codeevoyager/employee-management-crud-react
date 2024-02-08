@@ -43,7 +43,6 @@ input::-webkit-outer-spin-button{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  word-wrap: break-word;
   gap: 2rem;
 }
 
@@ -57,14 +56,18 @@ Table{
   max-width: 60%;
 }
 
+tr{
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+}
 
 @media screen and (max-width:600px) {
   .readHeader, Table{
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     width: 80%;
   }
 
-  
 }
 
 
