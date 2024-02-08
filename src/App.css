@@ -28,6 +28,10 @@ nav{
   font-weight: bold;
 }
 
+.form-label, .form-control{
+  width: 100%;
+}
+
 input::-webkit-inner-spin-button,
 input::-webkit-outer-spin-button{
   -webkit-appearance: none;
