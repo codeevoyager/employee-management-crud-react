@@ -33,9 +33,9 @@ useEffect(() => {
 
   return (
   <div className='read'>  
-      <div className='readHeader'>
+      <div className='readHeader mt-5'>
         <Link><Button className="fw-bold" onClick={()=>{navigate(-1)}}>Go back</Button></Link>
-        <Link to={"/create"}><Button className='mt-5 text-bg-success fw-bold border-0'>+ Add new employee</Button></Link>
+        <Link to={"/create"}><Button className='text-bg-success fw-bold border-0'>+ Add new employee</Button></Link>
       </div>
 
   <Table bordered hover className='text-center' size="sm" variant='muted'>
