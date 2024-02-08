@@ -56,8 +56,8 @@ useEffect(() => {
         <td>{data.position}</td>
         <td>{data.empId}</td>
         <td>{data.mobNo}</td>
-        <td><Button className="text-light" variant='warning' onClick={()=> updateUser(data)}>Edit</Button></td>
-        <td><Button className="text-light" variant='danger' onClick={()=>{deleteUser(data.id)}}>Delete</Button></td>
+        <td><Button className="text-light p-1" variant='warning' onClick={()=> updateUser(data)}>Edit</Button></td>
+        <td><Button className="text-light p-1" variant='danger' onClick={()=>{deleteUser(data.id)}}>Delete</Button></td>
       </tr>  
       ))}
     </tbody>
